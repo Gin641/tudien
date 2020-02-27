@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>từ điển</title>
+</head>
+<body>
+<script>
+    let str = prompt("nhập tiếng anh,việt vào");
+    let eng = ["banana","red","blue","what"];
+    let viet = ["chuối","đỏ","xanh biển","cái gì"];
+    let result ="";
+    if (eng.indexOf(str) !== -1){
+        result = viet[eng.indexOf(str)];
+        document.write(result);
+    }else {
+        document.write("không có");
+    }
+</script>
+</body>
+</html>
